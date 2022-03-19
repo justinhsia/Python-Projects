@@ -1,6 +1,6 @@
 def blah(func):
     def wrapper(*args, **kwargs):
-        print(f'{func.__name__} Fuck Putin')
+        print(f'{func.__name__} executed')
         results = func(*args, **kwargs)
         return results
     return wrapper
